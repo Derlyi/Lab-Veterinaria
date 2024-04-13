@@ -15,14 +15,18 @@ body {
     width: 80px;
     height: 80px;
     float: right;
-    margin-right: 0.5rem;
+    margin-top: -5rem;
   }
 
   header h1 {
     color: white;
     font-size: 1.5rem;
   }
-  
+
+  h2{
+    text-align: center;
+  }
+
   nav {
     background-color: #333;
     height: 50px;
