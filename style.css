@@ -25,16 +25,23 @@ body {
 
   header logo {
     color: white;
-    font-size: 18px;
+    font-size: 25px;
   }
   header h2{
-    font-size: 40px;
+    font-size: 60px;
     margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
   }
 
   header h3{
-    font-size: 40px;
+    font-size: 60px;
     margin: 0;
+    margin-left: 220px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
   }
 
   h2{
