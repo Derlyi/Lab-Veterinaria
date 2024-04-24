@@ -1,0 +1,32 @@
+/* Estilos para computadora */
+@media only screen and (min-width: 1024px) {
+    /* Aquí puedes agregar estilos específicos para computadora */
+    header img {
+        margin-left: 170px;
+    }
+    header h3 {
+        margin-left: 220px;
+    }
+}
+
+/* Estilos para tablet */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    /* Aquí puedes agregar estilos específicos para tablet */
+    header img {
+        margin-left: 100px; /* Modifica el valor según sea necesario */
+    }
+    header h3 {
+        margin-left: 120px; /* Modifica el valor según sea necesario */
+    }
+}
+
+/* Estilos para celular */
+@media only screen and (max-width: 767px) {
+    /* Aquí puedes agregar estilos específicos para celular */
+    header img {
+        margin-left: 20px; /* Modifica el valor según sea necesario */
+    }
+    header h3 {
+        margin-left: 40px; /* Modifica el valor según sea necesario */
+    }
+}
