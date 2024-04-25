@@ -1,32 +1,77 @@
-/* Estilos para computadora */
-@media only screen and (min-width: 1024px) {
-    /* Aquí puedes agregar estilos específicos para computadora */
-    header img {
-        margin-left: 170px;
+@media (width <= 600px) { /*Celulares*/
+   
+    .container {
+        width: 100%;
     }
-    header h3 {
-        margin-left: 220px;
+    .container-box {
+        width: 100%;
+    }
+    .container-menu {
+        width: 70%;
+    }
+    .container-main-content {
+        width: 100%;
+    }
+    .asidebar {
+        width: 100%;
+    
+    }
+    .article-container {
+        width: 100%;
+    }
+    .asidebar {
+        width: 70%;
+    }
+    .sidebar {
+        width: 100%;
+        
+    }
+    img {
+        width: auto;
     }
 }
 
-/* Estilos para tablet */
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-    /* Aquí puedes agregar estilos específicos para tablet */
-    header img {
-        margin-left: 100px; /* Modifica el valor según sea necesario */
+@media (601px <= width <= 1199px) { /*Tablets*/
+   
+    .container {
+        width: 50%;
+        margin: auto;
     }
-    header h3 {
-        margin-left: 120px; /* Modifica el valor según sea necesario */
+    .container-box {
+        width: 70%;
     }
+    .container-menu {
+        width: 70%;
+    }
+    .container-main-content {
+        width: 70%;
+    }
+    .asidebar {
+        width: 100%;
+
+    }
+
 }
 
-/* Estilos para celular */
-@media only screen and (max-width: 767px) {
-    /* Aquí puedes agregar estilos específicos para celular */
-    header img {
-        margin-left: 20px; /* Modifica el valor según sea necesario */
+@media (width >= 1367px) { /*Pantallas grandes*/
+   
+    .container {
+        width: 50%;
     }
-    header h3 {
-        margin-left: 40px; /* Modifica el valor según sea necesario */
+    .container-box {
+        width: 70%;
+    }
+    .container-menu {
+        width: 70%;
+    }
+    .container-main-content {
+        width: 70%;
+    }
+    .asidebar {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+        
     }
 }
